@@ -1,0 +1,164 @@
+* {
+    font-family: 'American Typewriter', sans-serif;
+}
+
+.logo img {
+    float: left;
+    padding-left: 75px;
+    width: 27%;
+}
+
+header { 
+    background-color: #1b5036;
+    height: 18vh;/*estava 15vh, porem no minha maquina estava esquisito por isso da mudanca*/
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    position: fixed;
+    border-radius: 20px 20px 20px 20px;
+}
+header ul li {
+    list-style: none;
+    display:inline;
+    padding:2px;
+    
+}
+
+ul a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-family: system-ui, 'Segoe UI';
+    font-size: 15px;
+}
+
+ul a:hover {
+    background-color: rgba(88, 182, 119, 0.041);
+    border-radius: 10px;
+}
+
+.item-navbar {/**/
+    margin:10px;
+    padding: 15px;
+}
+
+.barra {
+    position: absolute;
+    left: 40%;
+    transform: translateX(-50%);
+}
+.barra h1 {/*titulo do site*/
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+.redes ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+.redes ul li {
+    margin-left: 10%;
+}
+.redes ul li a img {
+    height: 30px; /* Ajuste a altura conforme necessário */
+}
+.redes {
+    margin-right:2vw;
+    width: 10%;/*tamaho das logos das redes*/
+}
+
+h3 {
+    margin-top: 20vh;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ff8c00;
+    padding-left: 200px;
+    font-size: 35px;
+}
+
+h4{
+    font-size: 4vh;
+    margin-left: 20vh;
+    color: #006400;
+    padding-left: 8vh;
+    margin-top: 5vh;
+    font-size: 25px;
+}
+p{
+    color: #2c2c2c;
+    display: flex;
+    margin-left: 32vh;
+    margin-right: 20vh;
+    font-size: 18px;
+    text-align: justify;
+}
+.texto-1{
+    color: #2c2c2c;
+    font-size: 3vh;
+
+}
+.lista{
+    margin-left: 35vh;
+    color: #2c2c2c;
+}
+
+.titulo{
+    padding-left: 50vh;
+}
+
+body {
+    background-color: #d4edda;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imagemCuriosidade img{
+    
+    height:250px;
+    padding-left: 327px;
+    width: 50%;
+    padding-right: 30px;
+}
+
+main {
+    float: left;
+    margin: 0 auto;
+}
+footer { 
+    background-color: #1b5036;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+}
+.footerDetalhe  {
+    color: aliceblue;
+    position: absolute;
+    left: 35%;
+    transform: translateX(-50%);
+}
+.footerDetalhe h3 {
+    margin-left: -32vh;
+    margin-top: 3vh;
+    color: aliceblue;
+    font-size: 2vh;
+    font-family:  Arial, sans-serif;;
+}
+.footerDetalhe p{
+    font-size: 2vh;
+}
+.footerDetalhe ul{
+    margin-left: -15vh;
+}
+
+.conteudo table{
+    margin-top: 15vh;
+  
+}

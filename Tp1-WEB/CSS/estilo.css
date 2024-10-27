@@ -1,0 +1,150 @@
+* {
+    font-family: 'American Typewriter', sans-serif;
+}
+
+.logo img {
+    float: left;
+    padding-left: 75px;
+    width: 27%;
+}
+
+/*inicio da pagina*/
+header { 
+    background-color: #1b5036;
+    height: 18vh;/*aumentei pois na minha maquina estava pequeno*/
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    box-sizing: border-box;
+    position: fixed;
+    border-radius: 20px 20px 20px 20px;
+}
+header ul li {
+    list-style: none;
+    display:inline;
+    padding:2px;
+    
+}
+
+ul a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-family: system-ui, 'Segoe UI';
+    font-size: 15px;
+}
+/*quando passa o mouse*/
+ul a:hover {
+    background-color: rgba(88, 182, 119, 0.041);
+    border-radius: 15px;
+}
+
+.item-navbar {
+    margin:10px;
+    padding:10px;
+}
+
+/*barra*/
+.barra {
+    position: absolute;
+    left: 33%;
+    transform: translateX(-50%);
+}
+.barra h1 {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+/*define os tamanhos e desing das redes sociais*/
+.redes ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+.redes ul li {
+    margin-left: 10%;
+}
+.redes ul li a img {
+    height: 30px; 
+}
+.redes {
+    margin-right:2vw;
+    width: 10%;
+}
+
+h1 {
+    margin-top: 20vh;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ff8c00;
+    padding-left: 200px;
+}
+
+h3{
+    margin-left: 20vh;
+    color: #006400;
+    padding-left: 125px;
+}
+p{
+    color: #2c2c2c;
+    display: flex;
+    margin-left: 60vh;
+    margin-right: 20vh;
+    font-size: 18px;
+}
+
+body {
+    background-color: #d4edda;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imagemIndex img{
+    
+    height:390px;
+    float: left;
+    padding-left: 75px;
+    width: 27%;
+}
+
+main {
+    float: left;
+    margin: 0 auto;
+}
+footer { 
+    background-color: #1b5036;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+.footerDetalhe  {
+    color: aliceblue;
+    position: absolute;
+    left: 35%;
+    transform: translateX(-50%);
+}
+.footerDetalhe h3 {
+    margin-left: -10vh;
+    margin-top: 3vh;
+    color: aliceblue;
+}
+.footerDetalhe p{
+    font-size: 2vh;
+}
+
+.conteudo table{
+    margin-top: 15vh;
+  
+}
+
+
+
+
